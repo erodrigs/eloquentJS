@@ -10,9 +10,16 @@
 */
 
 // Primeiro, vamos escrever um programa que imprima, de fato, os números de 1 a 100:
+// Agora, vamos incluir uma validação para testar a divisibilidade por 3:
 
-let numbers = 0;
-for (let i = 0; i < 100; i += 1) {
-  numbers += 1;
+let numbers = [];
+for (let i = 1; i <= 100; i += 1) { 
+  numbers.push(i);
+  /* if (numbers % 3 == 0) {
+    numbers = "Fizz";
+  }
   console.log(numbers);
+  */ 
 }
+
+console.log(numbers);
