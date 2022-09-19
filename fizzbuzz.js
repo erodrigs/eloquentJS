@@ -14,12 +14,12 @@
 
 let numbers = [];
 for (let i = 1; i <= 100; i += 1) { 
-  numbers.push(i);
-  /* if (numbers % 3 == 0) {
-    numbers = "Fizz";
+
+  if (i % 3 == 0) {
+    numbers.push("Fizz");
+  } else {
+    numbers.push(i);
   }
-  console.log(numbers);
-  */ 
 }
 
 console.log(numbers);
