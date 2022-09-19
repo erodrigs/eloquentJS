@@ -15,7 +15,7 @@
      # # # #
 
     Quando você tiver o programa que gere este padrão, defina a variável size = 8
-    e altere o programa para que ele funcione para qualquer size, a saída da grade de lergura e altura.
+    e altere o programa para que ele funcione para qualquer size, a saída da grade de largura e altura.
 
     Dica:
 
@@ -37,3 +37,13 @@
 // 3 - Cada posição da grade é representada por um espaço ou um "#";
 
 let table = "";
+let hash = "#";
+let space = " ";
+
+for(let i = 0; i < 4; i += 1) {
+    for(j = 0; j < 4; j += 1) {
+        
+    }
+}
+
+// console.log(table);
