@@ -33,5 +33,7 @@
 
 // Baby steps
 // 1 - criar uma string que vai receber o resultado das iterações (o resultado final é uma grade 8x8);
+// 2 - Novas linhas separam os caracteres;
+// 3 - Cada posição da grade é representada por um espaço ou um "#";
 
 let table = "";
