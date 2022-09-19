@@ -31,3 +31,7 @@
     as linhas e o loop interno manipula os caracteres por linha.
 */
 
+// Baby steps
+// 1 - criar uma string que vai receber o resultado das iterações (o resultado final é uma grade 8x8);
+
+let table = "";
