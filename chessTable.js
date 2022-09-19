@@ -40,11 +40,12 @@ let table = "";
 let hash = "#";
 let space = " ";
 
-for(let i = 0; i < 2; i += 1) {
-    for(j = 0; j < 2; j += 1) {
+for(let i = 0; i < 8; i += 1) {
+    for(j = 0; j < 4; j += 1) {
         table += hash;
         table += space;
     }
+    table += "\n";
 }
 
 console.log(table);
